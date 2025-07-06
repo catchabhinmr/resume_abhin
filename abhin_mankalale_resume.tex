@@ -1,6 +1,6 @@
 %-------------------------
 % Resume in LateX
-% Author : Abhin Mankalale
+% Author : Sourabh Bajaj
 % License : MIT
 %------------------------
 
@@ -93,36 +93,37 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\Large Abhin Mankalale} & Email: \href{mailto:catchabhinmr@gmail.com}{catchabhinmr@gmail.com}\\
-  \href{}{} & Mobile: \href{tel:+919552608760}{+91-9552608760} \\
+  \textbf{\href{https://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email: \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+  \href{https://sourabhbajaj.com/}{sourabhbajaj.com} & Mobile: \href{tel:+11234567890}{+1-123-456-7890} \\
 \end{tabular*}
 
 
 %-----------EDUCATION-----------------
 \section{Education}
-  \resumeSubHeadingListStart    
+  \resumeSubHeadingListStart
     \resumeSubheading
-      {Birla Institute of Technology and Science}{Goa, India}
-      {Bachelor of Engineering in Electrical and Electronics; }{Aug 2015 -- July 2019}
+      {Georgia Institute of Technology}{Atlanta, GA}
+      {Master of Science in Computer Science; GPA: 4.00}{Aug 2012 -- Dec 2013}
+    \resumeSubheading
+      {Birla Institute of Technology and Science}{Pilani, India}
+      {Bachelor of Engineering in Electrical and Electronics; GPA: 3.66 (9.15/10.0)}{Aug 2008 -- July 2012}
   \resumeSubHeadingListEnd
-%
-%--------SKILLS------------
-%\section{Skills}
-%  \resumeSubHeadingListStart
-%    \item{
-%      \textbf{Languages}{: Java, Python, JavaScript, SQL}
-%      \hfill
-%      \textbf{Technologies}{: GCP, AWS, Angular,GITHUB Action, Springboot, TeamCity, Grafana}
-%    }
-%  \resumeSubHeadingListEnd
-
 
 
 %-----------EXPERIENCE-----------------
 \section{Experience}
   \resumeSubHeadingListStart
 
-          
+    \resumeSubheading
+      {Google}{Mountain View, CA}
+      {Software Engineer}{Oct 2016 -- Present}
+      \resumeItemListStart
+        \resumeItem{TensorFlow}
+          {TensorFlow is an open source software library for numerical computation using data flow graphs; primarily used for training deep learning models. Worked on APIs and performance for training models on Tensor Processing Units (TPU).}
+        \resumeItem{Apache Beam}
+          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines, as well as a set of language-specific SDKs for constructing pipelines and runners.}
+      \resumeItemListEnd
+      
 % --------Multiple Positions Heading------------
   %  \resumeSubSubheading
   %   {Software Engineer I}{Oct 2014 -- Sep 2016}
@@ -134,31 +135,37 @@
 %-------------------------------------------
 
     \resumeSubheading
-      {Deustche Bank}{Bangalore, Karnataka}
-      {Associate Software Engineer}{March 2022 - November 2024}
+      {Coursera}{Mountain View, CA}
+      {Senior Software Engineer}{Jan 2014 -- Oct 2016}
       \resumeItemListStart
-        \resumeItem{Monitoring}
-          {Implemented an end-to-end monitoring and reporting solution for cloud applications, harnessing the capabilities of Google Cloud Platform APIs and Grafana to gather and visualize crucial performance metrics across the organization}
-        \resumeItem{Toil}
-          {Developed the bank's SRE support automation solution using Python Flask, Angular, Shell, TFE and GitHub Actions, eliminating over 300 hours of toil per month}
+        \resumeItem{Notifications}
+          {Service for sending email, push and in-app notifications. Involved in features such as delivery time optimization, tracking, queuing and A/B testing. Built an internal app to run batch campaigns for marketing etc.}
+        \resumeItem{Nostos}
+          {Bulk data processing and injection service from Hadoop to Cassandra and provides a thin REST layer on top for serving offline computed data online.}
         \resumeItem{Workflows}
-          {Implemented CI/CD pipelines with GitHub Actions, resulting in a 60\% reduction in deployment time, integrated them with the SDLC and Veracode pipelines for quality checks and evidence collection}
-       
+          {Dataduct an open source workflow framework to create and manage data pipelines leveraging reusables patterns to expedite developer productivity.}
+        \resumeItem{Data Collection}
+          {Designed the internal survey and crowdsourcing platform which allowed for creating various tasks for crowdsourcing or embedding surveys across the Coursera platform.}
+        \resumeItem{Dev Environment}
+          {Analytics environment based on Docker and AWS, standardized the Python and R dependencies. Wrote the core libraries that are shared by all data scientists.}
+        \resumeItem{Data Warehousing}
+          {Setup, schema design and management of Amazon Redshift. Built an internal app for access to the data using a web interface. Dataduct integration for daily ETL injection into Redshift.}
+        \resumeItem{Recommendations}
+          {Core service for all recommendation systems at Coursera, currently used on the homepage and throughout the content discovery process. Worked on both offline training and online serving.}
+        \resumeItem{Content Discovery}
+          {Improved content discovery by building a new onboarding experience on coursera. Used this to personalize the search and browse experience. Also worked on ranking and indexing improvements.}
+        \resumeItem{Course Dashboards}
+          {Instructor dashboards and learner surveying tools, which helped instructors run their class better by providing data on Assignments and Learner Activity.}
+      \resumeItemListEnd
 
     \resumeSubheading
-      {Deustche Bank}{Bangalore, Karnataka}
-      {Technology Analyst}{July 2019 - March 2022}
+      {Lucena Research}{Atlanta, GA}
+      {Data Scientist}{Summer 2012 and 2013}
       \resumeItemListStart
-        \resumeItem{Automation}
-          {Designed and upgraded the self-service VM modification tool (eliminating the need for tedious manual vendor process and costs) and reduced the turnaround time for upgrades from 3 weeks to ~5 minutes} 
-        \resumeItem{Automation}
-          {Implemented custom VM segregation and placement logic (having dedicated hosts for Linux and Windows) reducing ESXI and Microsoft licensing costs which helped save over €2.2 million yearly} 
-        \resumeItem{Automation}
-          {Implemented Automation pipelines with Automic, for resolving priority incidents, which will help resolve issues on server outages} 
-        \resumeItem{CI-CD pipeline}
-          {Incorporated Continuous Integration and Delivery through TeamCity to the project pipeline that has automated the application deployment process. It has reduced the time for deployment by 90\%}
-        \resumeItem{Security}
-          {Updated the old methodology for handling developer credentials in the codebase with the current best practices.}
+        \resumeItem{Portfolio Management}
+          {Created models for portfolio hedging, portfolio optimization and price forecasting. Also created a strategy backtesting engine used for simulating and backtesting strategies.}
+        \resumeItem{QuantDesk}
+          {Python backend for a web application used by hedge fund managers for portfolio management.}
       \resumeItemListEnd
 
     \resumeSubheading
