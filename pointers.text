@@ -1,0 +1,23 @@
+Need to add resume pointer for CI CD for ngp project.
+Goal: Used teamcity to implement CI-CD pipline for deploying the current application reducing
+deploying time by 80%. Also enabling code coverage, qaulity metrics
+
+what was ngp: Thier internal vm provisioning tool. 
+What work did you do as a feature
+1. Control actions
+2. Enabling a new vm provisioning service for conuat machines.
+3. Automations like fixing c drive space issue.
+
+As maintainence:
+Improving the code coverage of the code base.
+Implementing handling of credentials thorugh jasypt because the secrets where visible in logs.
+
+
+
+Cloud Reliability:
+LZApplife
+SreCentral.
+Provisioning workflow for landing zones.
+read the documentation and add the same.
+
+
