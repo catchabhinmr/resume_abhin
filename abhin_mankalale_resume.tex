@@ -48,10 +48,8 @@
 
 %-------------------------
 % Custom commands
-\newcommand{\resumeItem}[2]{
-  \item\small{
-    \textbf{#1}{: #2 \vspace{-2pt}}
-  }
+\newcommand{\resumeItem}[2]{%
+  \item\small{\textbf{#1}{: #2}}\par\vspace{-3pt}%
 }
 
 % Just in case someone needs a heading that does not need to be in a list
@@ -100,7 +98,7 @@
 
 %-----------ProfessionalSummary-----------------
 \section{professional summary}
-\small{ackend engineer with 6+ years building and owning cloud infrastructure products end-to-end. At Deutsche Bank, built and owned the backend platform that automated GCP Landing Zone provisioning for the entire organization — standardizing network, security, and compliance controls and eliminating 300+ hours of manual onboarding effort per month. Currently freelancing, building backend systems in Spring Boot for early-stage startups.}
+\small{Backend engineer with 6+ years building and owning cloud infrastructure products end-to-end. At Deutsche Bank, built and owned the backend platform that automated GCP Landing Zone provisioning for the entire organization — standardizing network, security, and compliance controls and eliminating 300+ hours of manual onboarding effort per month. Currently freelancing, building backend systems in Spring Boot for early-stage startups.}
 \vspace{4pt}
 %
 %-----------EDUCATION-----------------
@@ -164,7 +162,7 @@
         \resumeItem{Feature Development}
           {Developed an integrated activity tracking system in React to monitor and document inter-team communications and progress checkpoints, enhancing visibility and control in Landing Zone deployment.}
         \resumeItem{Monitoring \& Observability}
-          {Built a metrics aggregation service consuming GCP APIs, exposing usage data via REST endpoints visualized in Grafana for org-wide cloud observability.}     
+          {Built a metrics aggregation service consuming GCP APIs, exposing usage data via REST endpoints visualized in Grafana for org-wide cloud observability.}
         \resumeItem{Automation \& Toil reduction}
           {Led the development of the bank's Cloud onboarding support by building a backend automation service integrated into the on-boarding platform, eliminating over 300 hours of toil per month.}
         \resumeItem{CI/CD \& Process Optimization}
